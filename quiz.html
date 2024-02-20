@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MELANIE FAN QUIZ</title>
+    <link rel="icon" type="image/icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="images/Untitled (4).png">
+    <!-- Style of CSS -->
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    
+    <!-- University Of Minnesota icon on title tag -->
+
+
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+
+                <!-- Logo -->
+               
+              
+
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <h2></h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Melanie</a></li>
+                <li><a href="quiz.html">Super Fan Quiz</a></li>
+                <li><a href="shirt.html">T-Shirts</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="cds.html">Albums for purchase</a></li>
+                <li><a href="headphones.html">Headphones & Speakers</a></li>
+                <li><a href="temu.html">TEMU</a></li>
+                <li><a href="video.html">Music Videos</a></li>
+                <li><a href="music.html">Play Music</a></li>
+                <li><a href="misc.html">Miscellaneous</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Start Assessment Section -->
+    <a href="#" class="jon-logo"><img src="images/MelSig.png"
+            alt="A see through image of a computer, with Jon Thomas Snover below image in the upper lefthand corner of webpage"
+            class="logo"></a>
+    <div class="start">
+        <h1>Melanie's Fan Quiz</h1>
+        <p class="start-page">
+            *Let's see if you know Melanie!*
+            <br>
+            Incorrect answer = -10 sec.
+            <br>
+            Good Luck!
+        </p>
+
+        <button id="start-button" class="btn">START</button>
+    </div>
+
+    <!-- Assessment Questions Section -->
+    <main class="main">
+        <div id="assess-questions" class="containerhide">
+            <h2 class="timer">Timer:</h2>
+
+            <div id="question-card" class="card">
+
+                <header class="container">
+                    <h3 id="question"></h3>
+                </header>
+
+                <!-- Multiple Choice Answer Section -->
+                <section id="multiple-choice" class="container">
+                    <div class="answer">
+                        <label id="multiple-choice-A"></label>
+                    </div><br>
+
+                    <div class="answer">
+                        <label id="multiple-choice-B"></label>
+                    </div> <br>
+
+                    <div class="answer">
+                        <label id="multiple-choice-C"></label>
+                    </div> <br>
+
+                    <div class="answer">
+                        <label id="multiple-choice-D"></label>
+                    </div> <br>
+                </section>
+                <div id="check-answer-correct" class="check-answer-incorrect"></div>
+            </div>
+        </div>
+
+        <!-- Highscore Button -->
+        <button id="highscore-button" class="btn">SCORES</button>
+</main>
+
+        <!-- End Of Assessment, Enter Highscore -->
+        <section id="input-score" class="container hide">
+            <h1>YOU DID IT!</h1>
+
+            <h2>YOU SCORED <span id="score-button" class="user-score">Score</span> POINTS!</h2>
+
+            <form>
+                <label for="initials-box">INITIAL HERE:</label>
+                <br>
+                <input id="initials-box" type="text">
+                <br>
+                <input id="submit-button" type="submit" class="btn">
+            </form>
+        </section>
+        <!-- Highscore Section -->
+        <section id="high-score" class="container hide">
+            <h1>HIGH SCORES:</h1>
+
+            <header>
+                <hr style="margin-top:0; border-color:transparent;">
+                <div id="scoreBoard" style="min-height: 275px"></div>
+            </header>
+
+            <button id="back-button" class="btn">GO HOME</button>
+            <button id="clear-button" class="btn">CLEAR HIGH SCORES</button>
+        </section>
+        
+<!-- Footer -->
+<br>
+<br> 
+<br>
+<br>   
+
+<ul class="icons">
+    <a href="#" class="icon brands style2 fa-spotify"
+        onclick="parent.open('https://open.spotify.com/artist/63yrD80RY3RNEM2YDpUpO8')"></a>
+    <a href="#" class="icon brands style2  fa-apple"
+        onclick="parent.open('https://music.apple.com/br/artist/melanie-martinez/993014053')"></a>
+    <a href="#" class="icon brands style2 fa-soundcloud"
+        onclick="parent.open('https://soundcloud.com/melaniemartinezmusic')"></a>
+    <a href="#" class="icon brands style2  fa-instagram"
+        onclick="parent.open('https://www.instagram.com/littlebodybigheart/?hl=pt')"></a>
+    <a href="#" class="icon brands style2 fa-twitter" onclick="parent.open('https://twitter.com/MelanieLBBH')"></a>
+</ul>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/quiz.js"></script>
+    
+</body>
+
+</html>
